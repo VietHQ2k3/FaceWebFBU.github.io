@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #fbb1f8, #98f7fc);
+    height: 100vh;
+}
+
+.head{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);  
+}
+
+.waper{
+    margin-left: 100px;
+    height: 100vh;
+    padding: 50px;
+}
+
+.waper1{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.waper2{
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.waper button{
+    align-items: center;
+    background-color: #349df3;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 45px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-weight: 600;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 240px;
+}
+
+.waper2 .bx-power-off{
+    font-size: 18px;
+}
